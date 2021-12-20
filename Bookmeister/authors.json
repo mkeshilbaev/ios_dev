@@ -1,0 +1,18 @@
+{
+	"author1": {
+			"id": "1",
+			"name_surname": "Abai Kunanbayev",
+		},
+
+	"author2": {
+			"id": "2",
+			"name_surname": "Lev Tolstoy",
+		},
+
+	"author3": {
+			"id": "3",
+			"name_surname": "Aleaxndr Pushkin",
+		}
+
+
+}

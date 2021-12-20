@@ -1,0 +1,6 @@
+framework module Pods_Bookmeister {
+  umbrella header "Pods-Bookmeister-umbrella.h"
+
+  export *
+  module * { export * }
+}
