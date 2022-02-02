@@ -1,0 +1,12 @@
+{
+	"genre1": {
+			"id": "1",
+			"title": "Biography",
+		},
+
+	"genre2": {
+			"id": "2",
+			"title": "Business",
+		}
+
+}
