@@ -9,7 +9,11 @@
 import UIKit
 
 
+<<<<<<< HEAD
 private  var calculatorModel = Calculator()
+=======
+private  var calculatorModel = CalculatorModel()
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
 
 class ViewController: UIViewController {
     

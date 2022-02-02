@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vpT-ri-J70">
     <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vpT-ri-J70">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -14,6 +22,7 @@
             <objects>
                 <viewController id="vpT-ri-J70" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hI8-6E-ItU">
+<<<<<<< HEAD
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -22,25 +31,47 @@
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="IQp-BN-FYV">
                                 <rect key="frame" x="139" y="213" width="150" height="128"/>
+=======
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="7Lc-aB-ewF">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="IQp-BN-FYV">
+                                <rect key="frame" x="139" y="213" width="136" height="128"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="JEf-jj-b5F"/>
                                     <constraint firstAttribute="width" constant="136" id="lKt-pW-zDp"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bookmeister" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcq-dH-Xev">
+<<<<<<< HEAD
                                 <rect key="frame" x="118.66666666666667" y="349" width="190.66666666666663" height="46.666666666666686"/>
+=======
+                                <rect key="frame" x="112" y="349" width="190.5" height="46.5"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="34"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="the best app for listening to your lovely books " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wK1-L5-Hn8">
+<<<<<<< HEAD
                                 <rect key="frame" x="59" y="495.33333333333331" width="310" height="65.666666666666686"/>
+=======
+                                <rect key="frame" x="59" y="495" width="296" height="66"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="24"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TIc-1h-jwV">
+<<<<<<< HEAD
                                 <rect key="frame" x="157" y="595" width="114" height="40"/>
+=======
+                                <rect key="frame" x="157" y="595" width="100" height="40"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="Wlu-oh-UU7"/>
@@ -60,7 +91,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lLV-FW-9YO">
+<<<<<<< HEAD
                                 <rect key="frame" x="61" y="842" width="307" height="30"/>
+=======
+                                <rect key="frame" x="61" y="812" width="293" height="30"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                 <state key="normal" title="Don't have account? Click to register">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -103,6 +138,7 @@
             <objects>
                 <viewController id="yVy-kc-ZAT" customClass="LoginViewController" customModule="Bookmeister" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="247-Il-vqA">
+<<<<<<< HEAD
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -111,16 +147,34 @@
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mZu-bA-qcF">
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="43.333333333333336"/>
+=======
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="MBw-7J-uUO">
+                                <rect key="frame" x="82" y="373" width="250" height="160"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mZu-bA-qcF">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="43.5"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" textContentType="username"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LOx-zA-wM9">
+<<<<<<< HEAD
                                         <rect key="frame" x="0.0" y="58.333333333333314" width="250" height="43.333333333333343"/>
+=======
+                                        <rect key="frame" x="0.0" y="58.5" width="250" height="43"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="15p-rR-rpe">
+<<<<<<< HEAD
                                         <rect key="frame" x="0.0" y="116.66666666666667" width="250" height="43.333333333333329"/>
+=======
+                                        <rect key="frame" x="0.0" y="116.5" width="250" height="43.5"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                         <color key="backgroundColor" red="0.50945693250000001" green="0.34229201079999999" blue="0.84710216520000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Sign in">
@@ -137,7 +191,11 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fT4-mQ-Yqc">
+<<<<<<< HEAD
                                 <rect key="frame" x="20" y="842" width="388" height="30"/>
+=======
+                                <rect key="frame" x="20" y="812" width="374" height="30"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                 <state key="normal" title="Don't have account? Click to register">
                                     <color key="titleColor" red="0.27863985299999999" green="0.21215170620000001" blue="0.60003292559999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -147,7 +205,11 @@
                                 </connections>
                             </button>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="fBx-L3-hK7">
+<<<<<<< HEAD
                                 <rect key="frame" x="197" y="583" width="34" height="37"/>
+=======
+                                <rect key="frame" x="197" y="568" width="20" height="37"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                             </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Tcm-wF-DOy"/>
@@ -180,11 +242,19 @@
             <objects>
                 <viewController id="4ja-9z-MOQ" customClass="RegistrationViewController" customModule="Bookmeister" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vbu-b2-jbC">
+<<<<<<< HEAD
                         <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Z3I-RB-160">
                                 <rect key="frame" x="89" y="223.66666666666663" width="250" height="391"/>
+=======
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Z3I-RB-160">
+                                <rect key="frame" x="82" y="208.5" width="250" height="391"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zi3-O3-JnS">
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="43"/>
@@ -196,7 +266,11 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Surname" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="67k-tN-d6T">
+<<<<<<< HEAD
                                         <rect key="frame" x="0.0" y="58.000000000000028" width="250" height="43"/>
+=======
+                                        <rect key="frame" x="0.0" y="58" width="250" height="43"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="Di5-3v-04b"/>
@@ -206,7 +280,11 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date of birth" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dld-0y-tTy">
+<<<<<<< HEAD
                                         <rect key="frame" x="0.0" y="116.00000000000003" width="250" height="43"/>
+=======
+                                        <rect key="frame" x="0.0" y="116" width="250" height="43"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="43" id="xs1-8M-Nzg"/>
@@ -215,7 +293,11 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i3J-2g-Gem">
+<<<<<<< HEAD
                                         <rect key="frame" x="0.0" y="174.00000000000003" width="250" height="43"/>
+=======
+                                        <rect key="frame" x="0.0" y="174" width="250" height="43"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="43" id="Vkx-Z3-5Ui"/>
@@ -224,7 +306,11 @@
                                         <textInputTraits key="textInputTraits" textContentType="username"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xpz-UG-J3R">
+<<<<<<< HEAD
                                         <rect key="frame" x="0.0" y="232.00000000000003" width="250" height="42.999999999999972"/>
+=======
+                                        <rect key="frame" x="0.0" y="232" width="250" height="43"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="43" id="DGc-FZ-gpO"/>
@@ -258,7 +344,11 @@
                                 </subviews>
                             </stackView>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="6h0-Vy-YJf">
+<<<<<<< HEAD
                                 <rect key="frame" x="197" y="649.66666666666663" width="34" height="37"/>
+=======
+                                <rect key="frame" x="197" y="634.5" width="20" height="37"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                             </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ouz-0U-f9U"/>
@@ -292,16 +382,25 @@
             <objects>
                 <viewController storyboardIdentifier="HomeViewController" id="PLx-gm-spc" customClass="HomeViewController" customModule="Bookmeister" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="paG-qc-qCI">
+<<<<<<< HEAD
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nQn-bL-tJp">
                                 <rect key="frame" x="0.0" y="34" width="428" height="44"/>
+=======
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nQn-bL-tJp">
+                                <rect key="frame" x="0.0" y="34" width="414" height="44"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                 <items>
                                     <navigationItem title="Home" id="CKI-yt-zCt"/>
                                 </items>
                             </navigationBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="E1B-x7-YgB">
+<<<<<<< HEAD
                                 <rect key="frame" x="0.0" y="78" width="428" height="765"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
@@ -310,6 +409,16 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NyC-aC-5Wb" id="lHm-VA-MYH">
                                             <rect key="frame" x="0.0" y="0.0" width="428" height="130"/>
+=======
+                                <rect key="frame" x="0.0" y="78" width="414" height="735"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="bookCell" rowHeight="130" id="NyC-aC-5Wb" customClass="HomeViewTableViewCell" customModule="Bookmeister" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="130"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NyC-aC-5Wb" id="lHm-VA-MYH">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="130"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Война и мир" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TG6-CQ-SCB">
@@ -326,7 +435,11 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XH7-UF-o3v">
+<<<<<<< HEAD
                                                     <rect key="frame" x="128" y="12.000000000000002" width="53.666666666666657" height="30.666666666666671"/>
+=======
+                                                    <rect key="frame" x="128" y="12" width="53.5" height="30.5"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                                     <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="22"/>
                                                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -381,6 +494,7 @@
             <objects>
                 <viewController id="Dip-fj-dik" customClass="SearchViewController" customModule="Bookmeister" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="drS-U0-fjU">
+<<<<<<< HEAD
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -393,6 +507,20 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bu7-rg-U2V" id="GMQ-9e-LKj">
                                             <rect key="frame" x="0.0" y="0.0" width="428" height="130"/>
+=======
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fOz-Xa-QdG">
+                                <rect key="frame" x="0.0" y="88" width="414" height="740"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="bookCell" rowHeight="130" id="bu7-rg-U2V" customClass="HomeViewTableViewCell" customModule="Bookmeister" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="130"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bu7-rg-U2V" id="GMQ-9e-LKj">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="130"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Война и мир" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LHH-6c-9ql">
@@ -409,7 +537,11 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TjW-FD-VBj">
+<<<<<<< HEAD
                                                     <rect key="frame" x="128" y="12.000000000000002" width="53.666666666666657" height="30.666666666666671"/>
+=======
+                                                    <rect key="frame" x="128" y="12" width="53.5" height="30.5"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                                     <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="22"/>
                                                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -460,9 +592,21 @@
         <!--Profile-->
         <scene sceneID="FZN-SL-4LL">
             <objects>
+<<<<<<< HEAD
                 <viewController id="TD8-iQ-8lx" customClass="ProfileViewController" customModule="Bookmeister" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eIa-BZ-bQq">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+=======
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A7o-ZP-mnz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="ftO-Mu-ohr">
+                    <connections>
+                        <action selector="didTapProfilePicture:" destination="TD8-iQ-8lx" id="Mje-ef-r7c"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <viewController id="TD8-iQ-8lx" customClass="ProfileViewController" customModule="Bookmeister" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eIa-BZ-bQq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fox" translatesAutoresizingMaskIntoConstraints="NO" id="GUV-Bf-Vf2">
@@ -506,13 +650,21 @@
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lG5-Ko-plj">
+<<<<<<< HEAD
                                 <rect key="frame" x="88" y="271" width="238" height="27.666666666666686"/>
+=======
+                                <rect key="frame" x="88" y="271" width="238" height="27.5"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <color key="textColor" red="0.57414853570000002" green="0.57416242360000003" blue="0.57415497299999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wvz-bh-BBP">
+<<<<<<< HEAD
                                 <rect key="frame" x="175" y="317.33333333333331" width="65" height="55"/>
+=======
+                                <rect key="frame" x="175" y="317" width="65" height="55"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                 <constraints>
                                     <constraint firstAttribute="width" constant="65" id="Mpo-nK-wIq"/>
                                     <constraint firstAttribute="height" constant="55" id="Um8-1y-HRL"/>
@@ -554,12 +706,15 @@
                         <outlet property="username" destination="lG5-Ko-plj" id="9yu-L7-vmx"/>
                     </connections>
                 </viewController>
+<<<<<<< HEAD
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A7o-ZP-mnz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="ftO-Mu-ohr">
                     <connections>
                         <action selector="didTapProfilePicture:" destination="TD8-iQ-8lx" id="Mje-ef-r7c"/>
                     </connections>
                 </tapGestureRecognizer>
+=======
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
             </objects>
             <point key="canvasLocation" x="4686.9565217391309" y="857.8125"/>
         </scene>
@@ -568,17 +723,29 @@
             <objects>
                 <viewController storyboardIdentifier="PlayerViewController" id="xVP-oA-Lxw" customClass="PlayerViewController" customModule="Bookmeister" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fCD-ez-Mhv">
+<<<<<<< HEAD
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aIv-rB-DcW">
                                 <rect key="frame" x="0.0" y="81" width="428" height="380"/>
+=======
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aIv-rB-DcW">
+                                <rect key="frame" x="0.0" y="81" width="414" height="380"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                 <constraints>
                                     <constraint firstAttribute="height" constant="380" id="wZ8-rv-3wd"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3QM-EW-bzT">
+<<<<<<< HEAD
                                 <rect key="frame" x="15.999999999999998" y="575" width="30.333333333333329" height="21"/>
+=======
+                                <rect key="frame" x="16" y="575" width="30.5" height="21"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="KB2-1Z-dcI"/>
                                 </constraints>
@@ -587,7 +754,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not playing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2of-gy-0Yh">
+<<<<<<< HEAD
                                 <rect key="frame" x="162" y="471" width="104.33333333333331" height="21"/>
+=======
+                                <rect key="frame" x="155" y="471" width="104.5" height="21"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="39c-w9-cZj"/>
                                 </constraints>
@@ -596,7 +767,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="unknown" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7mg-P5-I9E">
+<<<<<<< HEAD
                                 <rect key="frame" x="179.66666666666666" y="500" width="69" height="21"/>
+=======
+                                <rect key="frame" x="172.5" y="500" width="69" height="21"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="1TW-sV-j3o"/>
                                 </constraints>
@@ -605,7 +780,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="Y3T-cr-ac6">
+<<<<<<< HEAD
                                 <rect key="frame" x="14" y="538" width="400" height="30"/>
+=======
+                                <rect key="frame" x="14" y="538" width="386" height="30"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="SYO-M7-dNd"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="29" id="nPb-77-AmE"/>
@@ -618,7 +797,11 @@
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="twT-KF-d4d">
+<<<<<<< HEAD
                                 <rect key="frame" x="381.33333333333331" y="575" width="30.333333333333314" height="21"/>
+=======
+                                <rect key="frame" x="367" y="575" width="30.5" height="21"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Kc9-n9-H3u"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="isS-yi-CLW"/>
@@ -628,7 +811,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="iw8-u1-Kl2">
+<<<<<<< HEAD
                                 <rect key="frame" x="51.666666666666657" y="646" width="325" height="32"/>
+=======
+                                <rect key="frame" x="51.5" y="646" width="311" height="32"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                 <segments>
                                     <segment title="0.5x"/>
                                     <segment title="1x"/>
@@ -642,10 +829,17 @@
                                 </connections>
                             </segmentedControl>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="sQE-1T-jZU">
+<<<<<<< HEAD
                                 <rect key="frame" x="103" y="588" width="222" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pHZ-IA-nWw">
                                         <rect key="frame" x="0.0" y="0.0" width="54.666666666666664" height="50"/>
+=======
+                                <rect key="frame" x="103" y="588" width="208" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pHZ-IA-nWw">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Play" image="backward"/>
                                         <connections>
@@ -653,7 +847,11 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nwe-iU-vL7">
+<<<<<<< HEAD
                                         <rect key="frame" x="83.666666666666657" y="0.0" width="54.666666666666657" height="50"/>
+=======
+                                        <rect key="frame" x="79" y="0.0" width="50" height="50"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" image="play"/>
                                         <connections>
@@ -661,7 +859,11 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ywt-nV-6XD">
+<<<<<<< HEAD
                                         <rect key="frame" x="167.33333333333331" y="0.0" width="54.666666666666657" height="50"/>
+=======
+                                        <rect key="frame" x="158" y="0.0" width="50" height="50"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="ng8-rl-b7R"/>
                                             <constraint firstAttribute="width" constant="50" id="zfm-Xn-7XN"/>
@@ -728,11 +930,19 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="HVc-op-6TT" customClass="EditProfileViewController" customModule="Bookmeister" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D87-YU-yfW">
+<<<<<<< HEAD
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aIM-gf-iuY">
                                 <rect key="frame" x="0.0" y="34" width="428" height="44"/>
+=======
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aIM-gf-iuY">
+                                <rect key="frame" x="0.0" y="34" width="414" height="44"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                 <constraints>
                                     <constraint firstAttribute="width" constant="414" id="Hgq-Wu-rci"/>
                                     <constraint firstAttribute="height" constant="44" id="LBs-Nl-yzU"/>
@@ -753,7 +963,11 @@
                                 </items>
                             </navigationBar>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="j9b-ac-Sjx">
+<<<<<<< HEAD
                                 <rect key="frame" x="89" y="283" width="250" height="350"/>
+=======
+                                <rect key="frame" x="82" y="253" width="250" height="350"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ANU-Gq-VRu">
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="46"/>
@@ -762,31 +976,51 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Surname" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C3N-Wk-Ht6">
+<<<<<<< HEAD
                                         <rect key="frame" x="0.0" y="61" width="250" height="45.666666666666657"/>
+=======
+                                        <rect key="frame" x="0.0" y="61" width="250" height="45.5"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date of birth" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KcZ-es-2fu">
+<<<<<<< HEAD
                                         <rect key="frame" x="0.0" y="121.66666666666669" width="250" height="46"/>
+=======
+                                        <rect key="frame" x="0.0" y="121.5" width="250" height="46"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mb8-tf-Hn1">
+<<<<<<< HEAD
                                         <rect key="frame" x="0.0" y="182.66666666666669" width="250" height="45.666666666666657"/>
+=======
+                                        <rect key="frame" x="0.0" y="182.5" width="250" height="46"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm the password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AMJ-di-iQA">
+<<<<<<< HEAD
                                         <rect key="frame" x="0.0" y="243.33333333333337" width="250" height="46"/>
+=======
+                                        <rect key="frame" x="0.0" y="243.5" width="250" height="45.5"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bkq-c0-3Hc">
+<<<<<<< HEAD
                                         <rect key="frame" x="0.0" y="304.33333333333337" width="250" height="45.666666666666686"/>
+=======
+                                        <rect key="frame" x="0.0" y="304" width="250" height="46"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                         <color key="backgroundColor" red="0.50945693250000001" green="0.34229201079999999" blue="0.84710216520000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Confirm">
@@ -859,7 +1093,11 @@
             <objects>
                 <viewController id="bnK-4C-TVB" customClass="CatalogViewController" customModule="Bookmeister" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gZA-S4-v01">
+<<<<<<< HEAD
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+=======
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sEV-cI-Ejw">
@@ -868,7 +1106,11 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="genreCell" rowHeight="110" id="A4B-ZR-fP0" customClass="CatalogTableViewCell" customModule="Bookmeister" customModuleProvider="target">
+<<<<<<< HEAD
                                         <rect key="frame" x="0.0" y="44.666666030883789" width="414" height="110"/>
+=======
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="110"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="A4B-ZR-fP0" id="5RK-cV-sSF">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="110"/>
@@ -929,6 +1171,7 @@
             <objects>
                 <viewController storyboardIdentifier="BookViewController" id="NYV-oB-93o" customClass="BookViewController" customModule="Bookmeister" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="S6z-60-gUy">
+<<<<<<< HEAD
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -937,25 +1180,47 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZqY-Rk-PwC">
                                         <rect key="frame" x="189.66666666666666" y="312.33333333333331" width="49" height="27.333333333333314"/>
+=======
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" bounces="NO" showsHorizontalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iqg-q7-hew">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZqY-Rk-PwC">
+                                        <rect key="frame" x="182.5" y="312.5" width="49" height="27.5"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="20"/>
                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MOM-Vc-rgE">
+<<<<<<< HEAD
                                         <rect key="frame" x="94" y="20" width="240" height="211"/>
+=======
+                                        <rect key="frame" x="87" y="20" width="240" height="211"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                         <constraints>
                                             <constraint firstAttribute="height" constant="211" id="HtN-uc-9Us"/>
                                             <constraint firstAttribute="width" constant="240" id="d8H-bF-emM"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4LV-tN-ZeG">
+<<<<<<< HEAD
                                         <rect key="frame" x="20" y="403.66666666666669" width="385.33333333333331" height="24.666666666666686"/>
+=======
+                                        <rect key="frame" x="20" y="404" width="372.5" height="25"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8DI-9D-Y9e">
+<<<<<<< HEAD
                                         <rect key="frame" x="164" y="347.66666666666669" width="100" height="40"/>
+=======
+                                        <rect key="frame" x="157" y="348" width="100" height="40"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="Exh-sb-edx"/>
@@ -970,7 +1235,11 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aaf-NO-UsN">
+<<<<<<< HEAD
                                         <rect key="frame" x="182.33333333333334" y="269" width="63.333333333333343" height="35.666666666666686"/>
+=======
+                                        <rect key="frame" x="175.5" y="269" width="63.5" height="36"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="26"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -1027,7 +1296,11 @@
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2CT-5b-kti">
+<<<<<<< HEAD
                         <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+=======
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="22"/>
@@ -1052,7 +1325,11 @@
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FvR-HO-u8S">
+<<<<<<< HEAD
                         <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+=======
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="22"/>
@@ -1073,6 +1350,7 @@
             <objects>
                 <viewController wantsFullScreenLayout="YES" id="0ih-Ov-09q" customClass="FavouriteBooksViewController" customModule="Bookmeister" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ykh-sR-hjR">
+<<<<<<< HEAD
                         <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -1085,6 +1363,20 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nur-yj-Gfs" id="rpm-rn-p8c">
                                             <rect key="frame" x="0.0" y="0.0" width="428" height="130"/>
+=======
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JQe-lt-nXd">
+                                <rect key="frame" x="0.0" y="78" width="414" height="730"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="bookCell" rowHeight="130" id="nur-yj-Gfs" customClass="HomeViewTableViewCell" customModule="Bookmeister" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="130"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nur-yj-Gfs" id="rpm-rn-p8c">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="130"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Война и мир" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IrZ-68-41V">
@@ -1101,7 +1393,11 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y56-hy-iqi">
+<<<<<<< HEAD
                                                     <rect key="frame" x="128" y="12.000000000000002" width="53.666666666666657" height="30.666666666666671"/>
+=======
+                                                    <rect key="frame" x="128" y="12" width="53.5" height="30.5"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                                     <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="22"/>
                                                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -1153,11 +1449,19 @@
             <objects>
                 <viewController storyboardIdentifier="BooksInGenreViewController" id="ciU-YB-p15" customClass="BooksInGenreViewController" customModule="Bookmeister" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UTa-ih-WcG">
+<<<<<<< HEAD
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="caN-Xm-oFv">
                                 <rect key="frame" x="0.0" y="34" width="428" height="44"/>
+=======
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="caN-Xm-oFv">
+                                <rect key="frame" x="0.0" y="34" width="414" height="44"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                 <textAttributes key="titleTextAttributes">
                                     <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="22"/>
                                     <color key="textColor" red="0.27863985299999999" green="0.21215170620000001" blue="0.60003292559999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1167,6 +1471,7 @@
                                 </items>
                             </navigationBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dtW-9r-4uJ">
+<<<<<<< HEAD
                                 <rect key="frame" x="0.0" y="78" width="428" height="814"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
@@ -1175,6 +1480,16 @@
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="d5N-BO-zGe" id="Fd5-Cd-td4">
                                             <rect key="frame" x="0.0" y="0.0" width="428" height="130"/>
+=======
+                                <rect key="frame" x="0.0" y="78" width="414" height="784"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="bookCell" rowHeight="130" id="d5N-BO-zGe" customClass="HomeViewTableViewCell" customModule="Bookmeister" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="130"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="d5N-BO-zGe" id="Fd5-Cd-td4">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="130"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Война и мир" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aER-xJ-PgU">
@@ -1191,7 +1506,11 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5f-ID-9RY">
+<<<<<<< HEAD
                                                     <rect key="frame" x="128" y="12.000000000000002" width="53.666666666666657" height="30.666666666666671"/>
+=======
+                                                    <rect key="frame" x="128" y="12" width="53.5" height="30.5"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                                                     <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="22"/>
                                                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -1247,7 +1566,11 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MxC-sz-JEM" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="OgE-xr-0FV">
+<<<<<<< HEAD
                         <rect key="frame" x="0.0" y="0.0" width="428" height="56"/>
+=======
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="22"/>
@@ -1266,13 +1589,21 @@
         <!--Search-->
         <scene sceneID="tuA-TK-F4K">
             <objects>
+<<<<<<< HEAD
+=======
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZCN-mK-0fx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8HT-wY-izX" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" selectedImage="magnifyingglass" id="qsP-Ny-hHq">
                         <color key="badgeColor" red="0.27863985299999999" green="0.21215170620000001" blue="0.60003292559999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nub-Nz-abP">
+<<<<<<< HEAD
                         <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+=======
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="22"/>
@@ -1284,7 +1615,10 @@
                         <segue destination="Dip-fj-dik" kind="relationship" relationship="rootViewController" id="wBb-6Z-ODJ"/>
                     </connections>
                 </navigationController>
+<<<<<<< HEAD
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZCN-mK-0fx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+=======
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
             </objects>
             <point key="canvasLocation" x="3849" y="858"/>
         </scene>

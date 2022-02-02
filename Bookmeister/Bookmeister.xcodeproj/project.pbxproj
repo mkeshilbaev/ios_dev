@@ -96,8 +96,13 @@
 				2B6E450A263DB414004CF264 /* HomeViewController.swift */,
 				2B6E4512263DB947004CF264 /* SearchViewController.swift */,
 				2B6E451C263DC770004CF264 /* BookViewController.swift */,
+<<<<<<< HEAD
 				2B6E4516263DBAF9004CF264 /* CatalogViewController.swift */,
 				2B5A0FCB265E5AD200837F13 /* CatalogTableViewCell.swift */,
+=======
+				2B5A0FCB265E5AD200837F13 /* CatalogTableViewCell.swift */,
+				2B6E4516263DBAF9004CF264 /* CatalogViewController.swift */,
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
 				2B5A0FCF265EBAE500837F13 /* BooksInGenreViewController.swift */,
 				2B6E4510263DB8E5004CF264 /* ProfileViewController.swift */,
 				2B6E4514263DB963004CF264 /* EditProfileViewController.swift */,
@@ -465,9 +470,13 @@
 			baseConfigurationReference = 104BD4A28BB036CE5BAA4EE8 /* Pods-Bookmeister.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
+=======
+				CODE_SIGN_STYLE = Automatic;
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
 				INFOPLIST_FILE = Bookmeister/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -475,7 +484,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kbtu.Bookmeister;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+<<<<<<< HEAD
 				PROVISIONING_PROFILE_SPECIFIER = "";
+=======
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -486,9 +498,13 @@
 			baseConfigurationReference = EF2AE1013CB61EE85C69834A /* Pods-Bookmeister.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
+=======
+				CODE_SIGN_STYLE = Automatic;
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
 				INFOPLIST_FILE = Bookmeister/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -496,7 +512,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kbtu.Bookmeister;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+<<<<<<< HEAD
 				PROVISIONING_PROFILE_SPECIFIER = "";
+=======
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

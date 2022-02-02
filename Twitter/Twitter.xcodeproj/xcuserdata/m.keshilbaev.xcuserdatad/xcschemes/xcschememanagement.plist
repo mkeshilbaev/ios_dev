@@ -7,7 +7,11 @@
 		<key>Twitter.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>0</integer>
+=======
+			<integer>16</integer>
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
 		</dict>
 	</dict>
 </dict>

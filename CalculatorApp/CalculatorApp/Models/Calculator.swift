@@ -135,9 +135,15 @@ func factorial(of value: Double) -> Double {
     }
     return result
 }
+<<<<<<< HEAD
 
 
     
      
 
+=======
+    
+     
+}
+>>>>>>> 0e8be357daea78ffa5e176872e081ca6f88355db
   
